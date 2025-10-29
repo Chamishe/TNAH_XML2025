@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Define your parameter entity here and load your menota entities file -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription starter of chapter 14 of Dares after Cod. Haen. 3518</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Leeipzig</settlement>
+                  <repository>Universitätsbibliothek</repository>
+                  <idno>Cod. Haen. 3518</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus/>
+                     <author/>
+                     <title/>
+                     <textLang/>
+                     <rubric/>
+                     <incipit/>
+                     <explicit/>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="14">
+            <pb n="4v"/>
+            <cb n="b"/>
+            <p>
+               <lb n="7"/> Ig&inodot;tur cla&slong;&slong; o&rrot;nata. grec&inodot; athena&slong;
+               conuen&er;unt <lb n="8"/> Ex micen&inodot;&slong;. agame<sic>nn</sic>on cum
+               nau&inodot;b&sem; centu&bar;. <lb n="9"/> Ex sparta menelaus cum nauibus lx Ex boetia
+               archesilaus et prothenor et penelus cum nauibus l Ex orchomeno aschaliphus et
+               alimenus cum nauibus xxx Ex phocide epistrophus et scedius cum nauibus xl Ex salamina
+               aiax thelamonius adducens secum theucrum fratrem suum bublationem amphimacum cum
+               nauibus xl Dein talphius et diores cum amphimaco et polixeno elide aulide aliisque
+               ciuitatibus regionis illius cum nauibus xl Polimestor cum nauibus xc Nestor ex philo
+               cum nauibus lxxx Thoas ex etholia cum nauibus xl Aiax locrus cum nauibus xxxvii Ex
+               calidone amtippus et philippus cum nauibus xxx Ex omni creta idomeneus cum merione
+               cum nauibus lxxx Ulixes ex ithaca cum nauibus xxii Ex rhodo protheus magnus et
+               depolemus aliisque circa eam insula cum nauibus lxix Ex philaca prothesilaus et
+               potarcus cum nauibus xl Emelus foronius cum nauibus x Podalirius et machaon tricenses
+               filii escholapii ad sciti ad id bellum obsollertiam medicine artis Ex pelasgo
+               achilles cum patroclo et cum mirimidonibus cum nauibus l Euripylus orchomenius cum
+               nauibus xl Ex larissa leontheus et polypoetes cum nauibus xl Ex etholia et thebes
+               thessandrus polynicis cum nauibus l Ex argis diomedes eurisalus et stenelus cum
+               nauibus lxxx Ex meliboea philocteta cum nauibus vii Ex cypro gineus cum nauibus xxii
+               Ex magnesia prothodorus cum nauibus xl Ex acarnania chalcas cum nauibus xx Ex
+               achadema thelephus cum nauibus lxxx Ex archadia agapenor cum nauibus xl Ex athenis
+               mnesteus cum nauibus l hii fuerunt duces grecorum numero xlvii qui adduxerunt naues
+               mille ccxxx. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
