@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Link your menota entities declaration here -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <!-- Enter a title here. -->
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <!-- Enter publication information here. -->
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Ireland</country>
+                  <settlement>Dublin</settlement>
+                  <repository>Trinity College </repository>
+                  <idno>IE TCD 11500</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p> 
+               <!-- The text starts at the beginning of line 5 of the image called: Dublin_Trinity_College_IE_TCD_11500_19r.jpg  -->
+               <cb n="5"/><lb n="5"/>
+               Deinde cu<choice><am>&bar;</am><ex>m</ex></choice> cla&slong;&slong;e athena&slong; 
+               p<choice><am>&barbl;</am><ex>er</ex></choice>ue<lb n="6"/>ne&rdes;u<choice><am>&bar;</am><ex>n</ex></choice>t 
+               <!-- Below the text contains expansions of the abbreviations in the brackets to 
+                  indicate where you should look for an abbreviation symbol 
+                  in the manuscript and indicate how it should be expanded -->
+               g(re)ci Agameno(n) ex micenis c(um)
+               nauib(us) nu(mer)o c Menelaus ex sp(ar)ta cu(m) nauib(us) nu(mer)o lx Archelaus et
+               p(ro)thenor (et) peleus ex boetia cu(m) nauibus nu(mer)o cl Epicroph(us) (et) scidius
+               ex palide naui(bus) nu(mer)o xl Aiax telamonis ex salamina adduxit sec(um) teucru(m)
+               f(rat)rem bublatore(m) Amphimacu(m) doreu(m) thesseu(m) pollixenium naui(bus)
+               nu(mer)o xl Polinestor cu(m) nauib(us) nu(mer)o xc Nestor ex pilo naui(bus) nu(mer)o
+               lxxx Toas ex colio naui(bus) nu(mer)o xxxviii Antip(us) philipp(us) (et) toas ex
+               calidone nauium nu(mer)o xxxviii Idomenius (et) m(er)emones ex c(re)ta nauiu(m)
+               nu(mer)o lxxx Lixes ex ithica naniu(m) nu(mer)o xv Protheselaus (et) p(ro)tarcus ex
+               pilica nauiu(m) nu(mer)o xl Animedius ex piris nauiu(m) nu(mer)o x Podani(us) (et)
+               machano ex colapi filii(us) ex t(er)ci nauiu(m) nu(mer)o xxxiii Achilles cu(m)
+               pat(ro)clo et mirmidonib(us) ex p(er)to nu(mer)o nauiu(m) l Thelephole(us) ex rodo
+               nauiu(m) nu(mer)o ix Euripihi(us) ex aconina nauiu(m) nu(mer)o xl Antip(us) (et)
+               amphimaq(us) ex elide nauiu(m) nu(mer)o xl Polibetes (et) leute(us) ex erpi nauiu(m)
+               nu(mer)o lxxx Philotectes ex meleboea nauiu(m) nu(mer)o vii Gneus ex cip(ro) nauiu(m)
+               nu(mer)o xxi Proteleus ex manesia nauiu(m) nu(mer)o xl De arpenor ex archadia
+               nauiu(m) nu(mer)o xl Menesteus ex athinis nauiu(m) nu(mer)o l Hii fuerant duces
+               greco(rum) nu(mer)o xl Naues fu(er)u(n)t nu(mer)o m(ille) ccxxv.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

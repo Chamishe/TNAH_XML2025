@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Link your menota entities declaration here -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><!-- Enter a title here. --></title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+            <!-- Enter publication information here. -->
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Munich</settlement>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>Clm 305</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="14">
+            <pb n="6r" facs="Germany_Munich_Bayerische_Staatsbibliothek_Clm_305_6r.jpg"/>
+            <p><!-- The text starts in the middle of line 4 of the image called: Munich_Bayerische_Staatsbibliothek_Clm_305_6r.jpg  -->
+               <lb n="4"/> De&inodot;nde h&inodot;&inodot; 
+               om<choice>
+                  <am>&bar;</am>
+                  <ex>ne</ex>
+               </choice>&slong; ornati cu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> cla&slong;&slong;e athe<lb n="5"/>na&slong; p<choice>
+                  <am>&barbl;</am>
+                  <ex>er</ex>
+               </choice>uenerunt. Agamennon ex m&inodot;cen&inodot;&slong; cu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> numer<choice>
+                  <am>&bar;</am>
+                  <ex>o</ex>
+               </choice><lb n="6"/>
+               <!-- Below the text contains expansions of the abbreviations in the brackets to 
+                  indicate where you should look for an abbreviation symbol 
+                  in the manuscript and indicate how it should be expanded -->
+               c Menelaus ex sparta nauib(us) numero lx Archelaus (et) P(ro)tenor ex boetia
+               nauib(us) numero l Ascallofus (et) Alimen(us) ex orcomeno nauib(us) numero xxx
+               Epistrofus (et) scedius ex phociden nauib(us) numero xl Aiax telamonius ex salamina
+               adduxit secu(m) teuchru(m) fratre(m) bublatione(m) amphimachu(m) doriu(m) tesiu(m)
+               polixenu(m) nauib(us) num(ero) xl Nestor ex Pilo navibus num(ero) lxxx Thoas ex
+               etholia nauib(us) num(ero) xl Aiax cileus ex locris nauib(us) num(ero) xxxvii
+               Antippus philippus thoas ex calcedone nauib(us) num(ero) xxx, Idomeneus (et) meriones
+               ex creta nauib(us) num(ero) lxxx Ulixes ex ithaca nauib(us) numero xl Emelius ex
+               pirgis nauib(us) num(ero) x Protesilaus (et) p(ro)tarcus ex pilaga nauib(us) num(ero)
+               xl Podalirius (et) machaon escolaphi filii ectrici nauib(us) num(ero) xxxii Achilles
+               cu(m) patroclo (et) mirmidonib(us) ex pithia nauib(us) num(ero) l Triptolem(us) ex
+               rodoni nauib(us) num(ero) viiii Euriphilus ex orcomeno nauib(us) num(ero) xl
+               xantippus (et) amphimacus ex iliden nauib(us) num(ero) xii Polibetes (et) leontius ex
+               larisa nauib(us) num(ero) xl Diomedes cursalus steneus ex argis nauib(us) num(ero)
+               lxxx Philoctites ex melibea nauib(us) num(ero) vii Cuneus ex cipro nauib(us) num(ero)
+               xxi Protoelius ex magnesia nauib(us) num(ero) xl Agapenor ex archadia nauib(us)
+               num(ero) xl Mentheus ex athenis nauib(us) num(ero) l Creneus ex pilo nauib(us)
+               num(ero) xxii Hii fuerunt duces grecoru(m) num(ero) xlviiii q(u)i adduxerunt naues
+               num(ero) mille cxxx. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

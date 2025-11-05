@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Link your menota entities declaration here -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <!-- Enter a title here. -->
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <!-- Enter publication information here. -->
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Switzerland</country>
+                  <settlement>St Gall</settlement>
+                  <repository>Stiftsbibliothek</repository>
+                  <idno>Cod. Sang. 197</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <!-- The text starts at the end of line 7 of the image called: St_Gall_Stiftsbibliothek_Cod._Sang._197_102.jpg  -->
+           
+            <p> De&inodot;nde <lb n="8"/> ornat&inodot; cu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> cla&slong;&slong;&inodot;b<choice><am>&sem;</am><ex>us</ex></choice> athena&slong; 
+               
+               <!-- Below the text contains expansions of the abbreviations in the brackets to 
+                  indicate where you should look for an abbreviation symbol 
+                  in the manuscript and indicate how it should be expanded -->
+               conuener(unt) Agam(em)non ex micenis cum nauib(us)
+               numero centu(m) Menelaus ex sparta nauib(us) numero sexaginta Archelaus et p(ro)tenor
+               ex boetia nauib(us) numero L Ascalophus et alu(m)nus ex orcomeno nauib(us) numero xxx
+               Epistrophus et scedius ex phodicenno nauib(us) numero xl Aiax telamonius ex salamina
+               addux(it) secum tevcru(m) f(rat)rem bubatione(m) Amphimacu(m) doriu(m) thesium
+               polixenu(m) nauib(us) numero xl Nestor ex pilo nauib(us) numero octoginta Thoas ex
+               etholia nauib(us) numero xl Uenerius ex imi nauib(us) numero quinquaginta trib(us)
+               Aiax oilevs ex locris nauib(us) numero xxxvii Antippvs philipp(us) thoas ex caledona
+               nauib(us) numero xxx Idomenevs et meriones ex creta nauib(us) numero octoginta Ulixes
+               ex itacha nauib(us) numero xl Emelvs ex pirgis nauib(us) numero x Protelaus et
+               potarcus ex pilaca nauib(us) numero xl Podalirivs et maachon excolapi fisi iextrici
+               nauib(us) numero xxx ii(abus) Achilles cu(m) patroclo nauib(us) numero l simulex
+               mirmidonib(us) ex thaphia telepolem(us) ex rodo nauib(us) numero viiii Euripilus ex
+               orco nauib(us) numero xlx Antippvs et anphimac(us) ex iliden nauib(us) numero xi
+               Polibetis et leontius ex larisa nauib(us) numero xl Diomedes evrialus tenelus ex
+               argis nauib(us) numero lxxx Philoctites ex melibea nauib(us) numero vii Gunevs ex
+               Cypro nauib(us) numero xxi Prothoelius ex magnesia nauib(us) numero xl Agapenor ex
+               archadia nauib(us) numero xxi Mnesteus ex athenis nauib(us) numero l Hi fuerunt duces
+               greco(rum) numero XL nauem qui adduxer(unt) naues numero centv(m) mille xx.   </p>
+         </div>
+      </body>
+   </text>
+</TEI>
