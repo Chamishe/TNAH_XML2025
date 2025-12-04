@@ -3,19 +3,19 @@
 <teiHeader>
     <fileDesc>
         <titleStmt>
-            <title></title>
+            <title type="uniform">Some uniform title.</title>
         </titleStmt>
         <publicationStmt>
       <publisher></publisher>
         </publicationStmt>
         <sourceDesc>
-           <p>Based on <title type="uniform">A uniform title of a work</title>.</p>
+           <p></p>
         </sourceDesc>
     </fileDesc>
 </teiHeader>   
     <text>
         <body>
-            <div type="section">
+            <div type="some_type">
              <p>
                  This is my paragraph of a text describing various animals, among them some cats, such as Garfield, Freya's cat, etc.
              </p>
